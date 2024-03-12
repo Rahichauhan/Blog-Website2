@@ -1,0 +1,21 @@
+
+.rainbow-text {
+    background: linear-gradient(45deg, #1161c2, #00A7FF, #00CFFF, #00FFC7);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 4s linear infinite;
+    background-size: 200% 200%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(4, 1fr);   
+    gap: 20px; 
+  }
+  
+  .blog-article {
+    border: 1px solid #ccc; 
+    padding: 10px;
+  }
+  
