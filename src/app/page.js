@@ -2,6 +2,14 @@
 // import React, { useState, useEffect } from 'react';
 // import { client } from "../../sanity/lib/client";
 // import { urlForImage } from "../../sanity/lib/image";
+import Home from "./Home/page";
+const App = () => {
+  return (
+    <Home/>
+  );
+};
+
+export default App;
 
 // export default function Home() {
 //   const [posts, setPosts] = useState([]);
@@ -28,7 +36,7 @@
 //     };
 
 //     fetchData();
-//   }, []); // Empty dependency array to ensure useEffect runs only once
+//   }, []); 
 
 //   if (loading) {
 //     return <p>Loading...</p>;
@@ -52,11 +60,3 @@
 //     </>
 //   );
 // }
-import Home from "./Home/page";
-const App = () => {
-  return (
-    <Home/>
-  );
-};
-
-export default App;
